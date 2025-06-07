@@ -569,10 +569,10 @@ TextureImporter:
       name: PlayerShips_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 960
-        width: 96
-        height: 51
+        x: 20
+        y: 961
+        width: 94
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: PlayerShips_1
       rect:
         serializedVersion: 2
-        x: 228
-        y: 1003
-        width: 10
-        height: 9
+        x: 229
+        y: 1004
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: PlayerShips_2
       rect:
         serializedVersion: 2
-        x: 403
-        y: 920
-        width: 19
-        height: 99
+        x: 404
+        y: 921
+        width: 17
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: PlayerShips_3
       rect:
         serializedVersion: 2
-        x: 579
-        y: 672
-        width: 322
-        height: 339
+        x: 580
+        y: 673
+        width: 320
+        height: 337
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: PlayerShips_4
       rect:
         serializedVersion: 2
-        x: 467
-        y: 992
-        width: 51
-        height: 10
+        x: 468
+        y: 993
+        width: 49
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: PlayerShips_5
       rect:
         serializedVersion: 2
-        x: 808
-        y: 993
-        width: 8
-        height: 8
+        x: 809
+        y: 994
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: PlayerShips_6
       rect:
         serializedVersion: 2
-        x: 307
-        y: 968
-        width: 27
-        height: 14
+        x: 308
+        y: 969
+        width: 25
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,10 +723,10 @@ TextureImporter:
       name: PlayerShips_7
       rect:
         serializedVersion: 2
-        x: 919
-        y: 980
-        width: 10
-        height: 7
+        x: 920
+        y: 981
+        width: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,10 +745,10 @@ TextureImporter:
       name: PlayerShips_8
       rect:
         serializedVersion: 2
-        x: 200
-        y: 931
-        width: 72
-        height: 40
+        x: 201
+        y: 932
+        width: 70
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +767,10 @@ TextureImporter:
       name: PlayerShips_9
       rect:
         serializedVersion: 2
-        x: 970
-        y: 968
-        width: 8
-        height: 8
+        x: 971
+        y: 969
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,10 +789,10 @@ TextureImporter:
       name: PlayerShips_10
       rect:
         serializedVersion: 2
-        x: 438
-        y: 923
-        width: 34
-        height: 38
+        x: 439
+        y: 924
+        width: 32
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: PlayerShips_11
       rect:
         serializedVersion: 2
-        x: 504
-        y: 946
-        width: 8
-        height: 7
+        x: 872
+        y: 953
+        width: 37
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,10 +833,10 @@ TextureImporter:
       name: PlayerShips_12
       rect:
         serializedVersion: 2
-        x: 871
-        y: 952
-        width: 39
-        height: 14
+        x: 505
+        y: 947
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +855,10 @@ TextureImporter:
       name: PlayerShips_13
       rect:
         serializedVersion: 2
-        x: 568
-        y: 927
-        width: 7
-        height: 7
+        x: 569
+        y: 928
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +877,10 @@ TextureImporter:
       name: PlayerShips_14
       rect:
         serializedVersion: 2
-        x: 327
-        y: 896
-        width: 47
-        height: 28
+        x: 328
+        y: 897
+        width: 45
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,10 +899,10 @@ TextureImporter:
       name: PlayerShips_15
       rect:
         serializedVersion: 2
-        x: 481
-        y: 887
-        width: 8
-        height: 9
+        x: 867
+        y: 908
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,10 +921,10 @@ TextureImporter:
       name: PlayerShips_16
       rect:
         serializedVersion: 2
-        x: 866
-        y: 907
-        width: 11
-        height: 8
+        x: 933
+        y: 889
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,10 +943,10 @@ TextureImporter:
       name: PlayerShips_17
       rect:
         serializedVersion: 2
-        x: 932
-        y: 888
-        width: 34
-        height: 35
+        x: 83
+        y: 873
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,10 +965,10 @@ TextureImporter:
       name: PlayerShips_18
       rect:
         serializedVersion: 2
-        x: 82
-        y: 872
-        width: 12
-        height: 18
+        x: 482
+        y: 888
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +987,10 @@ TextureImporter:
       name: PlayerShips_19
       rect:
         serializedVersion: 2
-        x: 155
-        y: 856
-        width: 11
-        height: 29
+        x: 156
+        y: 857
+        width: 9
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,10 +1009,10 @@ TextureImporter:
       name: PlayerShips_20
       rect:
         serializedVersion: 2
-        x: 256
-        y: 824
-        width: 18
-        height: 59
+        x: 257
+        y: 825
+        width: 16
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,10 +1031,10 @@ TextureImporter:
       name: PlayerShips_21
       rect:
         serializedVersion: 2
-        x: 340
-        y: 846
-        width: 8
-        height: 20
+        x: 341
+        y: 847
+        width: 6
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,10 +1053,10 @@ TextureImporter:
       name: PlayerShips_22
       rect:
         serializedVersion: 2
-        x: 433
-        y: 840
-        width: 8
-        height: 38
+        x: 434
+        y: 841
+        width: 6
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,10 +1075,10 @@ TextureImporter:
       name: PlayerShips_23
       rect:
         serializedVersion: 2
-        x: 496
-        y: 847
-        width: 9
-        height: 14
+        x: 497
+        y: 848
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,10 +1097,10 @@ TextureImporter:
       name: PlayerShips_24
       rect:
         serializedVersion: 2
-        x: 563
-        y: 872
-        width: 20
-        height: 11
+        x: 564
+        y: 873
+        width: 18
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: PlayerShips_25
       rect:
         serializedVersion: 2
-        x: 14
-        y: 712
-        width: 91
-        height: 136
+        x: 15
+        y: 713
+        width: 89
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,10 +1141,10 @@ TextureImporter:
       name: PlayerShips_26
       rect:
         serializedVersion: 2
-        x: 379
-        y: 813
-        width: 23
-        height: 30
+        x: 380
+        y: 814
+        width: 21
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: PlayerShips_27
       rect:
         serializedVersion: 2
-        x: 899
-        y: 840
-        width: 28
-        height: 8
+        x: 900
+        y: 841
+        width: 26
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,10 +1185,10 @@ TextureImporter:
       name: PlayerShips_28
       rect:
         serializedVersion: 2
-        x: 216
-        y: 813
-        width: 8
-        height: 7
+        x: 217
+        y: 814
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,10 +1207,10 @@ TextureImporter:
       name: PlayerShips_29
       rect:
         serializedVersion: 2
-        x: 355
-        y: 640
-        width: 200
-        height: 179
+        x: 356
+        y: 641
+        width: 198
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,10 +1229,10 @@ TextureImporter:
       name: PlayerShips_30
       rect:
         serializedVersion: 2
-        x: 968
-        y: 813
-        width: 8
-        height: 9
+        x: 969
+        y: 814
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,10 +1251,10 @@ TextureImporter:
       name: PlayerShips_31
       rect:
         serializedVersion: 2
-        x: 121
-        y: 776
-        width: 13
-        height: 32
+        x: 122
+        y: 777
+        width: 11
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1273,10 +1273,10 @@ TextureImporter:
       name: PlayerShips_32
       rect:
         serializedVersion: 2
-        x: 179
-        y: 783
-        width: 15
-        height: 20
+        x: 180
+        y: 784
+        width: 13
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1295,10 +1295,10 @@ TextureImporter:
       name: PlayerShips_33
       rect:
         serializedVersion: 2
-        x: 230
-        y: 720
-        width: 72
-        height: 64
+        x: 231
+        y: 721
+        width: 70
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1317,10 +1317,10 @@ TextureImporter:
       name: PlayerShips_34
       rect:
         serializedVersion: 2
-        x: 878
-        y: 743
-        width: 8
-        height: 10
+        x: 879
+        y: 744
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1339,10 +1339,10 @@ TextureImporter:
       name: PlayerShips_35
       rect:
         serializedVersion: 2
-        x: 63
-        y: 672
-        width: 8
-        height: 9
+        x: 64
+        y: 673
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1361,10 +1361,10 @@ TextureImporter:
       name: PlayerShips_36
       rect:
         serializedVersion: 2
-        x: 110
-        y: 639
-        width: 43
-        height: 36
+        x: 111
+        y: 640
+        width: 41
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1383,10 +1383,10 @@ TextureImporter:
       name: PlayerShips_37
       rect:
         serializedVersion: 2
-        x: 171
-        y: 672
-        width: 17
-        height: 26
+        x: 172
+        y: 673
+        width: 15
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,10 +1405,10 @@ TextureImporter:
       name: PlayerShips_38
       rect:
         serializedVersion: 2
-        x: 252
-        y: 671
-        width: 26
-        height: 20
+        x: 253
+        y: 672
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1427,10 +1427,10 @@ TextureImporter:
       name: PlayerShips_39
       rect:
         serializedVersion: 2
-        x: 323
-        y: 704
-        width: 20
-        height: 11
+        x: 324
+        y: 705
+        width: 18
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1449,10 @@ TextureImporter:
       name: PlayerShips_40
       rect:
         serializedVersion: 2
-        x: 915
-        y: 670
-        width: 30
-        height: 17
+        x: 916
+        y: 671
+        width: 28
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1471,10 +1471,10 @@ TextureImporter:
       name: PlayerShips_41
       rect:
         serializedVersion: 2
-        x: 934
-        y: 672
-        width: 72
-        height: 67
+        x: 935
+        y: 673
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1493,10 +1493,10 @@ TextureImporter:
       name: PlayerShips_42
       rect:
         serializedVersion: 2
-        x: 641
-        y: 639
-        width: 31
-        height: 10
+        x: 642
+        y: 640
+        width: 29
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1515,10 +1515,10 @@ TextureImporter:
       name: PlayerShips_43
       rect:
         serializedVersion: 2
-        x: 710
-        y: 584
-        width: 29
-        height: 64
+        x: 711
+        y: 585
+        width: 27
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1537,10 +1537,10 @@ TextureImporter:
       name: PlayerShips_44
       rect:
         serializedVersion: 2
-        x: 791
-        y: 627
-        width: 15
-        height: 24
+        x: 792
+        y: 628
+        width: 13
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1559,10 +1559,10 @@ TextureImporter:
       name: PlayerShips_45
       rect:
         serializedVersion: 2
-        x: 858
-        y: 640
-        width: 12
-        height: 29
+        x: 859
+        y: 641
+        width: 10
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1581,10 +1581,10 @@ TextureImporter:
       name: PlayerShips_46
       rect:
         serializedVersion: 2
-        x: 363
-        y: 632
-        width: 6
-        height: 7
+        x: 364
+        y: 633
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1603,10 +1603,10 @@ TextureImporter:
       name: PlayerShips_47
       rect:
         serializedVersion: 2
-        x: 421
-        y: 624
-        width: 10
-        height: 12
+        x: 422
+        y: 625
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1625,10 +1625,10 @@ TextureImporter:
       name: PlayerShips_48
       rect:
         serializedVersion: 2
-        x: 546
-        y: 631
-        width: 12
-        height: 7
+        x: 547
+        y: 632
+        width: 10
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1647,10 +1647,10 @@ TextureImporter:
       name: PlayerShips_49
       rect:
         serializedVersion: 2
-        x: 971
-        y: 600
-        width: 51
-        height: 39
+        x: 972
+        y: 601
+        width: 49
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1669,10 +1669,10 @@ TextureImporter:
       name: PlayerShips_50
       rect:
         serializedVersion: 2
-        x: 168
-        y: 544
-        width: 46
-        height: 75
+        x: 169
+        y: 545
+        width: 44
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1691,10 +1691,10 @@ TextureImporter:
       name: PlayerShips_51
       rect:
         serializedVersion: 2
-        x: 295
-        y: 616
-        width: 9
-        height: 9
+        x: 296
+        y: 617
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1713,10 +1713,10 @@ TextureImporter:
       name: PlayerShips_52
       rect:
         serializedVersion: 2
-        x: 579
-        y: 576
-        width: 59
-        height: 48
+        x: 580
+        y: 577
+        width: 57
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1735,10 +1735,10 @@ TextureImporter:
       name: PlayerShips_53
       rect:
         serializedVersion: 2
-        x: 63
-        y: 529
-        width: 24
-        height: 78
+        x: 64
+        y: 530
+        width: 22
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1757,10 +1757,10 @@ TextureImporter:
       name: PlayerShips_54
       rect:
         serializedVersion: 2
-        x: 283
-        y: 472
-        width: 158
-        height: 137
+        x: 284
+        y: 473
+        width: 156
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1779,10 +1779,10 @@ TextureImporter:
       name: PlayerShips_55
       rect:
         serializedVersion: 2
-        x: 466
-        y: 552
-        width: 20
-        height: 59
+        x: 467
+        y: 553
+        width: 18
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1801,10 +1801,10 @@ TextureImporter:
       name: PlayerShips_56
       rect:
         serializedVersion: 2
-        x: 666
-        y: 599
-        width: 12
-        height: 9
+        x: 667
+        y: 600
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1823,10 +1823,10 @@ TextureImporter:
       name: PlayerShips_57
       rect:
         serializedVersion: 2
-        x: 899
-        y: 576
-        width: 12
-        height: 28
+        x: 900
+        y: 577
+        width: 10
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1845,10 +1845,10 @@ TextureImporter:
       name: PlayerShips_58
       rect:
         serializedVersion: 2
-        x: 249
-        y: 575
-        width: 8
-        height: 9
+        x: 250
+        y: 576
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1867,10 +1867,10 @@ TextureImporter:
       name: PlayerShips_59
       rect:
         serializedVersion: 2
-        x: 531
-        y: 576
-        width: 12
-        height: 19
+        x: 532
+        y: 577
+        width: 10
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1889,10 +1889,10 @@ TextureImporter:
       name: PlayerShips_60
       rect:
         serializedVersion: 2
-        x: 822
-        y: 544
-        width: 72
-        height: 52
+        x: 823
+        y: 545
+        width: 70
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1911,10 @@ TextureImporter:
       name: PlayerShips_61
       rect:
         serializedVersion: 2
-        x: 939
-        y: 553
-        width: 22
-        height: 40
+        x: 940
+        y: 554
+        width: 20
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1933,10 +1933,10 @@ TextureImporter:
       name: PlayerShips_62
       rect:
         serializedVersion: 2
-        x: 776
-        y: 560
-        width: 22
-        height: 13
+        x: 777
+        y: 561
+        width: 20
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1955,10 +1955,10 @@ TextureImporter:
       name: PlayerShips_63
       rect:
         serializedVersion: 2
-        x: 111
-        y: 552
-        width: 9
-        height: 6
+        x: 112
+        y: 553
+        width: 7
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1977,10 +1977,10 @@ TextureImporter:
       name: PlayerShips_64
       rect:
         serializedVersion: 2
-        x: 568
-        y: 496
-        width: 38
-        height: 59
+        x: 569
+        y: 497
+        width: 36
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1999,10 +1999,10 @@ TextureImporter:
       name: PlayerShips_65
       rect:
         serializedVersion: 2
-        x: 232
-        y: 504
-        width: 9
-        height: 43
+        x: 233
+        y: 505
+        width: 7
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2021,10 +2021,10 @@ TextureImporter:
       name: PlayerShips_66
       rect:
         serializedVersion: 2
-        x: 507
-        y: 527
-        width: 8
-        height: 9
+        x: 656
+        y: 536
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2043,10 +2043,10 @@ TextureImporter:
       name: PlayerShips_67
       rect:
         serializedVersion: 2
-        x: 655
-        y: 535
-        width: 9
-        height: 8
+        x: 712
+        y: 473
+        width: 25
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2065,10 +2065,10 @@ TextureImporter:
       name: PlayerShips_68
       rect:
         serializedVersion: 2
-        x: 711
-        y: 472
-        width: 27
-        height: 79
+        x: 508
+        y: 528
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2087,10 +2087,10 @@ TextureImporter:
       name: PlayerShips_69
       rect:
         serializedVersion: 2
-        x: 164
-        y: 472
-        width: 10
-        height: 33
+        x: 892
+        y: 497
+        width: 36
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2109,10 +2109,10 @@ TextureImporter:
       name: PlayerShips_70
       rect:
         serializedVersion: 2
-        x: 467
-        y: 481
-        width: 35
-        height: 18
+        x: 165
+        y: 473
+        width: 8
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2131,10 +2131,10 @@ TextureImporter:
       name: PlayerShips_71
       rect:
         serializedVersion: 2
-        x: 631
-        y: 487
-        width: 13
-        height: 27
+        x: 468
+        y: 482
+        width: 33
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2153,10 +2153,10 @@ TextureImporter:
       name: PlayerShips_72
       rect:
         serializedVersion: 2
-        x: 763
-        y: 365
-        width: 67
-        height: 147
+        x: 632
+        y: 488
+        width: 11
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2175,10 +2175,10 @@ TextureImporter:
       name: PlayerShips_73
       rect:
         serializedVersion: 2
-        x: 846
-        y: 488
-        width: 24
-        height: 24
+        x: 764
+        y: 366
+        width: 65
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2197,10 +2197,10 @@ TextureImporter:
       name: PlayerShips_74
       rect:
         serializedVersion: 2
-        x: 891
-        y: 496
-        width: 38
-        height: 37
+        x: 847
+        y: 489
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2219,10 +2219,10 @@ TextureImporter:
       name: PlayerShips_75
       rect:
         serializedVersion: 2
-        x: 939
-        y: 400
-        width: 83
-        height: 99
+        x: 940
+        y: 401
+        width: 81
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2241,10 +2241,10 @@ TextureImporter:
       name: PlayerShips_76
       rect:
         serializedVersion: 2
-        x: 112
-        y: 469
-        width: 9
-        height: 12
+        x: 113
+        y: 470
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2263,10 +2263,10 @@ TextureImporter:
       name: PlayerShips_77
       rect:
         serializedVersion: 2
-        x: 515
-        y: 464
-        width: 22
-        height: 16
+        x: 516
+        y: 465
+        width: 20
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2285,10 +2285,10 @@ TextureImporter:
       name: PlayerShips_78
       rect:
         serializedVersion: 2
-        x: 685
-        y: 467
-        width: 12
-        height: 9
+        x: 686
+        y: 468
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2307,10 +2307,10 @@ TextureImporter:
       name: PlayerShips_79
       rect:
         serializedVersion: 2
-        x: 899
-        y: 455
-        width: 15
-        height: 20
+        x: 900
+        y: 456
+        width: 13
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2329,10 +2329,10 @@ TextureImporter:
       name: PlayerShips_80
       rect:
         serializedVersion: 2
-        x: 416
-        y: 453
-        width: 9
-        height: 9
+        x: 417
+        y: 454
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2351,10 +2351,10 @@ TextureImporter:
       name: PlayerShips_81
       rect:
         serializedVersion: 2
-        x: 568
-        y: 415
-        width: 26
-        height: 40
+        x: 569
+        y: 416
+        width: 24
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2373,10 +2373,10 @@ TextureImporter:
       name: PlayerShips_82
       rect:
         serializedVersion: 2
-        x: 3
-        y: 400
-        width: 59
-        height: 52
+        x: 4
+        y: 401
+        width: 57
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2395,10 +2395,10 @@ TextureImporter:
       name: PlayerShips_83
       rect:
         serializedVersion: 2
-        x: 139
-        y: 376
-        width: 59
-        height: 52
+        x: 140
+        y: 377
+        width: 57
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2417,10 +2417,10 @@ TextureImporter:
       name: PlayerShips_84
       rect:
         serializedVersion: 2
-        x: 216
-        y: 409
-        width: 9
-        height: 8
+        x: 217
+        y: 410
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2439,10 +2439,10 @@ TextureImporter:
       name: PlayerShips_85
       rect:
         serializedVersion: 2
-        x: 235
-        y: 391
-        width: 62
-        height: 60
+        x: 236
+        y: 392
+        width: 60
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2461,10 +2461,10 @@ TextureImporter:
       name: PlayerShips_86
       rect:
         serializedVersion: 2
-        x: 363
-        y: 376
-        width: 51
-        height: 25
+        x: 468
+        y: 417
+        width: 18
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2483,10 +2483,10 @@ TextureImporter:
       name: PlayerShips_87
       rect:
         serializedVersion: 2
-        x: 467
-        y: 416
-        width: 20
-        height: 17
+        x: 656
+        y: 427
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2505,10 +2505,10 @@ TextureImporter:
       name: PlayerShips_88
       rect:
         serializedVersion: 2
-        x: 655
-        y: 426
-        width: 9
-        height: 8
+        x: 716
+        y: 385
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2527,10 +2527,10 @@ TextureImporter:
       name: PlayerShips_89
       rect:
         serializedVersion: 2
-        x: 715
-        y: 384
-        width: 30
-        height: 49
+        x: 852
+        y: 390
+        width: 66
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2549,10 +2549,10 @@ TextureImporter:
       name: PlayerShips_90
       rect:
         serializedVersion: 2
-        x: 851
-        y: 389
-        width: 68
-        height: 62
+        x: 364
+        y: 377
+        width: 49
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2571,10 +2571,10 @@ TextureImporter:
       name: PlayerShips_91
       rect:
         serializedVersion: 2
-        x: 430
-        y: 331
-        width: 27
-        height: 59
+        x: 431
+        y: 332
+        width: 25
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2593,10 +2593,10 @@ TextureImporter:
       name: PlayerShips_92
       rect:
         serializedVersion: 2
-        x: 519
-        y: 382
-        width: 10
-        height: 10
+        x: 520
+        y: 383
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2615,10 +2615,10 @@ TextureImporter:
       name: PlayerShips_93
       rect:
         serializedVersion: 2
-        x: 632
-        y: 382
-        width: 22
-        height: 10
+        x: 633
+        y: 383
+        width: 20
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2637,10 +2637,10 @@ TextureImporter:
       name: PlayerShips_94
       rect:
         serializedVersion: 2
-        x: 263
-        y: 319
-        width: 33
-        height: 42
+        x: 264
+        y: 320
+        width: 31
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2659,10 +2659,10 @@ TextureImporter:
       name: PlayerShips_95
       rect:
         serializedVersion: 2
-        x: 329
-        y: 359
-        width: 14
-        height: 10
+        x: 330
+        y: 360
+        width: 12
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2681,10 +2681,10 @@ TextureImporter:
       name: PlayerShips_96
       rect:
         serializedVersion: 2
-        x: 559
-        y: 315
-        width: 42
-        height: 46
+        x: 560
+        y: 316
+        width: 40
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2703,10 +2703,10 @@ TextureImporter:
       name: PlayerShips_97
       rect:
         serializedVersion: 2
-        x: 803
-        y: 320
-        width: 46
-        height: 51
+        x: 804
+        y: 321
+        width: 44
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2725,10 +2725,10 @@ TextureImporter:
       name: PlayerShips_98
       rect:
         serializedVersion: 2
-        x: 130
-        y: 343
-        width: 13
-        height: 9
+        x: 131
+        y: 344
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2747,10 +2747,10 @@ TextureImporter:
       name: PlayerShips_99
       rect:
         serializedVersion: 2
-        x: 673
-        y: 348
-        width: 8
-        height: 6
+        x: 674
+        y: 349
+        width: 6
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2769,10 +2769,10 @@ TextureImporter:
       name: PlayerShips_100
       rect:
         serializedVersion: 2
-        x: 215
-        y: 332
-        width: 10
-        height: 10
+        x: 216
+        y: 333
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2791,10 +2791,10 @@ TextureImporter:
       name: PlayerShips_101
       rect:
         serializedVersion: 2
-        x: 371
-        y: 304
-        width: 35
-        height: 29
+        x: 31
+        y: 209
+        width: 53
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2813,10 +2813,10 @@ TextureImporter:
       name: PlayerShips_102
       rect:
         serializedVersion: 2
-        x: 30
-        y: 208
-        width: 55
-        height: 108
+        x: 148
+        y: 1
+        width: 227
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2835,10 +2835,10 @@ TextureImporter:
       name: PlayerShips_103
       rect:
         serializedVersion: 2
-        x: 110
-        y: 273
-        width: 30
-        height: 25
+        x: 372
+        y: 305
+        width: 33
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2857,10 +2857,10 @@ TextureImporter:
       name: PlayerShips_104
       rect:
         serializedVersion: 2
-        x: 147
-        y: 0
-        width: 229
-        height: 315
+        x: 488
+        y: 32
+        width: 197
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2879,10 +2879,10 @@ TextureImporter:
       name: PlayerShips_105
       rect:
         serializedVersion: 2
-        x: 419
-        y: 264
-        width: 30
-        height: 20
+        x: 500
+        y: 307
+        width: 9
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2901,10 +2901,10 @@ TextureImporter:
       name: PlayerShips_106
       rect:
         serializedVersion: 2
-        x: 487
-        y: 31
-        width: 199
-        height: 282
+        x: 740
+        y: 273
+        width: 7
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2923,10 +2923,10 @@ TextureImporter:
       name: PlayerShips_107
       rect:
         serializedVersion: 2
-        x: 499
-        y: 306
-        width: 11
-        height: 14
+        x: 884
+        y: 257
+        width: 33
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2945,10 +2945,10 @@ TextureImporter:
       name: PlayerShips_108
       rect:
         serializedVersion: 2
-        x: 695
-        y: 271
-        width: 10
-        height: 11
+        x: 111
+        y: 274
+        width: 28
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2967,10 +2967,10 @@ TextureImporter:
       name: PlayerShips_109
       rect:
         serializedVersion: 2
-        x: 739
-        y: 272
-        width: 9
-        height: 47
+        x: 420
+        y: 265
+        width: 28
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2989,10 +2989,10 @@ TextureImporter:
       name: PlayerShips_110
       rect:
         serializedVersion: 2
-        x: 783
-        y: 269
+        x: 696
+        y: 272
         width: 8
-        height: 12
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3011,10 +3011,10 @@ TextureImporter:
       name: PlayerShips_111
       rect:
         serializedVersion: 2
-        x: 883
-        y: 256
-        width: 35
-        height: 61
+        x: 784
+        y: 270
+        width: 6
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3033,10 +3033,10 @@ TextureImporter:
       name: PlayerShips_112
       rect:
         serializedVersion: 2
-        x: 958
-        y: 276
-        width: 10
-        height: 7
+        x: 959
+        y: 277
+        width: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3055,10 +3055,10 @@ TextureImporter:
       name: PlayerShips_113
       rect:
         serializedVersion: 2
-        x: 146
-        y: 204
-        width: 22
-        height: 27
+        x: 147
+        y: 205
+        width: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3077,10 +3077,10 @@ TextureImporter:
       name: PlayerShips_114
       rect:
         serializedVersion: 2
-        x: 391
-        y: 223
-        width: 15
-        height: 23
+        x: 392
+        y: 224
+        width: 13
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3099,10 +3099,10 @@ TextureImporter:
       name: PlayerShips_115
       rect:
         serializedVersion: 2
-        x: 830
-        y: 225
-        width: 40
-        height: 18
+        x: 831
+        y: 226
+        width: 38
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3121,10 +3121,10 @@ TextureImporter:
       name: PlayerShips_116
       rect:
         serializedVersion: 2
-        x: 900
-        y: 197
-        width: 19
-        height: 32
+        x: 901
+        y: 198
+        width: 17
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3143,10 +3143,10 @@ TextureImporter:
       name: PlayerShips_117
       rect:
         serializedVersion: 2
-        x: 439
-        y: 199
-        width: 10
-        height: 10
+        x: 440
+        y: 200
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3165,10 +3165,10 @@ TextureImporter:
       name: PlayerShips_118
       rect:
         serializedVersion: 2
-        x: 708
-        y: 175
-        width: 58
-        height: 36
+        x: 709
+        y: 176
+        width: 56
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3187,10 +3187,10 @@ TextureImporter:
       name: PlayerShips_119
       rect:
         serializedVersion: 2
-        x: 790
-        y: 202
-        width: 8
-        height: 9
+        x: 791
+        y: 203
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3209,10 +3209,10 @@ TextureImporter:
       name: PlayerShips_120
       rect:
         serializedVersion: 2
-        x: 954
-        y: 144
-        width: 36
-        height: 60
+        x: 955
+        y: 145
+        width: 34
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3231,10 +3231,10 @@ TextureImporter:
       name: PlayerShips_121
       rect:
         serializedVersion: 2
-        x: 86
-        y: 150
-        width: 19
-        height: 36
+        x: 87
+        y: 151
+        width: 17
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3253,10 +3253,10 @@ TextureImporter:
       name: PlayerShips_122
       rect:
         serializedVersion: 2
-        x: 174
-        y: 151
-        width: 9
-        height: 9
+        x: 175
+        y: 152
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3275,10 +3275,10 @@ TextureImporter:
       name: PlayerShips_123
       rect:
         serializedVersion: 2
-        x: 411
-        y: 151
-        width: 6
-        height: 7
+        x: 412
+        y: 152
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3297,10 +3297,10 @@ TextureImporter:
       name: PlayerShips_124
       rect:
         serializedVersion: 2
-        x: 855
-        y: 152
-        width: 23
-        height: 22
+        x: 856
+        y: 153
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3319,10 +3319,10 @@ TextureImporter:
       name: PlayerShips_125
       rect:
         serializedVersion: 2
-        x: 22
-        y: 83
-        width: 49
-        height: 64
+        x: 23
+        y: 84
+        width: 47
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3341,10 +3341,10 @@ TextureImporter:
       name: PlayerShips_126
       rect:
         serializedVersion: 2
-        x: 930
-        y: 139
-        width: 15
-        height: 9
+        x: 931
+        y: 140
+        width: 13
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3363,10 +3363,10 @@ TextureImporter:
       name: PlayerShips_127
       rect:
         serializedVersion: 2
-        x: 740
-        y: 128
-        width: 26
-        height: 9
+        x: 741
+        y: 129
+        width: 24
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3385,10 +3385,10 @@ TextureImporter:
       name: PlayerShips_128
       rect:
         serializedVersion: 2
-        x: 820
-        y: 123
-        width: 9
-        height: 9
+        x: 821
+        y: 124
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3407,10 +3407,10 @@ TextureImporter:
       name: PlayerShips_129
       rect:
         serializedVersion: 2
-        x: 107
-        y: 91
-        width: 28
-        height: 32
+        x: 108
+        y: 92
+        width: 26
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3429,10 +3429,10 @@ TextureImporter:
       name: PlayerShips_130
       rect:
         serializedVersion: 2
-        x: 407
-        y: 87
-        width: 29
-        height: 23
+        x: 408
+        y: 88
+        width: 27
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3451,10 +3451,10 @@ TextureImporter:
       name: PlayerShips_131
       rect:
         serializedVersion: 2
-        x: 714
-        y: 48
-        width: 20
-        height: 51
+        x: 715
+        y: 49
+        width: 18
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3473,10 +3473,10 @@ TextureImporter:
       name: PlayerShips_132
       rect:
         serializedVersion: 2
-        x: 771
-        y: 80
-        width: 24
-        height: 19
+        x: 772
+        y: 81
+        width: 22
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3495,10 +3495,10 @@ TextureImporter:
       name: PlayerShips_133
       rect:
         serializedVersion: 2
-        x: 851
-        y: 88
-        width: 91
-        height: 27
+        x: 852
+        y: 89
+        width: 89
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3517,10 +3517,10 @@ TextureImporter:
       name: PlayerShips_134
       rect:
         serializedVersion: 2
-        x: 162
-        y: 61
-        width: 9
-        height: 9
+        x: 163
+        y: 62
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3539,10 +3539,10 @@ TextureImporter:
       name: PlayerShips_135
       rect:
         serializedVersion: 2
-        x: 402
-        y: 24
-        width: 28
-        height: 44
+        x: 403
+        y: 25
+        width: 26
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3561,10 +3561,10 @@ TextureImporter:
       name: PlayerShips_136
       rect:
         serializedVersion: 2
-        x: 817
-        y: 32
-        width: 28
-        height: 35
+        x: 818
+        y: 33
+        width: 26
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3583,10 +3583,10 @@ TextureImporter:
       name: PlayerShips_137
       rect:
         serializedVersion: 2
-        x: 915
-        y: 55
-        width: 31
-        height: 9
+        x: 916
+        y: 56
+        width: 29
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3605,10 +3605,10 @@ TextureImporter:
       name: PlayerShips_138
       rect:
         serializedVersion: 2
-        x: 479
-        y: 42
-        width: 8
-        height: 7
+        x: 480
+        y: 43
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3627,7 +3627,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3e2e00367790c114daa78fb2bb6773a0
     internalID: 0
     vertices: []
     indices: 
