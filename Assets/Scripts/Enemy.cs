@@ -2,49 +2,53 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+    public AudioClip explosionSFX;
+    private AudioSource audioSource;
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float fireInterval = 2f;
+    public float speed = 2f;
 
-    private float fireTimer;
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        InvokeRepeating("Fire", 1f, 2f);
+    }
 
     void Update()
     {
-        // 아래로 이동
-        transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.down * speed * Time.deltaTime);
 
-        // 공격 타이밍
-        fireTimer -= Time.deltaTime;
-        if (fireTimer <= 0f)
+        if (transform.position.y < -15f)
         {
-            Fire();
-            fireTimer = fireInterval;
-        }
-
-        // 화면 아래로 사라지면 제거
-        if (transform.position.y < -6f)
             Destroy(gameObject);
+        }
     }
 
     void Fire()
     {
-        if (bulletPrefab != null && firePoint != null)
-        {
-            Vector3 spawnPos = firePoint.position;
-            spawnPos.z = 0f; // 반드시 Z = 0
-            Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
-        }
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        bullet.GetComponent<EnemyBullet>().isBossBullet = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // 플레이어와 충돌 시 둘 다 파괴
-            Destroy(other.gameObject); // 플레이어
-            Destroy(gameObject);       // 적
-            // TODO: GameManager에서 게임오버 호출하도록 연동 가능
+            PlayerHealth ph = other.GetComponent<PlayerHealth>();
+            if (ph != null && !ph.IsInvincible()) // ← 무적일 때는 무시
+            {
+                if (explosionSFX != null)
+                    AudioSource.PlayClipAtPoint(explosionSFX, transform.position);
+
+                ph.TakeDamage();
+                Destroy(other.gameObject);
+                Destroy(gameObject);
+            }
         }
+    }
+
+    void OnDestroy()
+    {
+        Debug.Log($"[DESTROY] Enemy destroyed at {Time.time:F2}");
     }
 }

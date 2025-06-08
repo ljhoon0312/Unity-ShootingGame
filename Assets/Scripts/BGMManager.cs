@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 
 public class BGMManager : MonoBehaviour
 {
@@ -23,6 +24,14 @@ public class BGMManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void PlayBGM(AudioClip clip)
+    {
+        if (bgmSource.clip == clip) return; // 같은 노래면 무시
+        bgmSource.clip = clip;
+        bgmSource.loop = true;
+        bgmSource.Play();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

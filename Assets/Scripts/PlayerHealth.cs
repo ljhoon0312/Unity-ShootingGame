@@ -1,38 +1,69 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public int lives = 3;
     private bool isInvincible = false;
+    private Vector3 spawnPosition = new Vector3(0, -3, 0);
+    private SpriteRenderer spriteRenderer;
+    private Collider2D col;
+    public AudioClip explosionSFX;
+    private AudioSource audioSource;
 
     void Start()
     {
-        StartInvincibility(); // 리스폰 시 무적 1초
+        audioSource = GetComponent<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        col = GetComponent<Collider2D>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void TakeDamage()
     {
-        if (isInvincible) return;
+        if (isInvincible || lives <= 0) return;
 
-        if (other.CompareTag("Enemy") || other.CompareTag("EnemyBullet"))
+        lives--;
+
+        if (explosionSFX != null)
+            AudioSource.PlayClipAtPoint(explosionSFX, transform.position);
+
+        GameManager.Instance.OnPlayerDeath();
+
+        if (lives > 0)
         {
-            Destroy(gameObject); // 플레이어 파괴
-
-            GameManager gm = FindFirstObjectByType<GameManager>();
-            if (gm != null)
-            {
-                gm.OnPlayerDeath(); // GameManager에게 사망 알림
-            }
+            StartCoroutine(Respawn());
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
-    void StartInvincibility()
+    public bool IsInvincible()
     {
-        isInvincible = true;
-        Invoke(nameof(EndInvincibility), 1.0f); // 1초 후 무적 해제
+        return isInvincible;
     }
 
-    void EndInvincibility()
+    IEnumerator Respawn()
     {
-        isInvincible = false;
+        isInvincible = true;
+
+        // 숨김 처리
+        spriteRenderer.enabled = false;
+        col.enabled = false;
+
+        yield return new WaitForSeconds(3f);
+
+        Destroy(gameObject); // 먼저 자신을 제거
+
+        yield return null;   // 프레임 하나 쉬고 나서
+
+        GameManager.Instance.SpawnPlayer(); // 그 후 새 전투기 생성
+    }
+
+    public void AddLife()
+    {
+        GameManager.Instance.playerLife++;
+        GameManager.Instance.UpdateLifeUI();
     }
 }
