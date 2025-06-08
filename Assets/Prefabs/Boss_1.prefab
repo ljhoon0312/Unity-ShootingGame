@@ -217,7 +217,7 @@ MonoBehaviour:
   spreadAngle: 210
   moveSpeed: 2
   minY: 2.5
-  explosionSFX: {fileID: 8300000, guid: 3053bc54f7f0a7649835d612773e9adc, type: 3}
+  explosionSoundPrefab: {fileID: 5972001354357518074, guid: 89cb14a6849cb174c9b05abc8fc4f2e9, type: 3}
 --- !u!82 &-8232749353187285271
 AudioSource:
   m_ObjectHideFlags: 0

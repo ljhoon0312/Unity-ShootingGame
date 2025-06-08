@@ -176,3 +176,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  isBossBullet: 0
+  explosionSoundPrefab: {fileID: 5972001354357518074, guid: 89cb14a6849cb174c9b05abc8fc4f2e9, type: 3}

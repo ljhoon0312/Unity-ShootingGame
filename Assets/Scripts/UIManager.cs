@@ -16,8 +16,12 @@ public class UIManager : MonoBehaviour
     private Color selectedColor = new Color(0.5f, 0.5f, 0.5f); // 어두운 색
     private Color defaultColor = Color.white;
 
+    public AudioClip clickSound;
+    private AudioSource audioSource;
+
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         easyImage = easyButton.GetComponent<Image>();
         normalImage = normalButton.GetComponent<Image>();
         hardImage = hardButton.GetComponent<Image>();
@@ -44,6 +48,26 @@ public class UIManager : MonoBehaviour
     private void StartGame()
     {
         Debug.Log($"게임 시작 - 선택된 난이도: {GameSettings.difficulty}");
+        // Canvas 포함한 모든 UI 제거
+        GameObject canvas = GameObject.Find("Canvas");
+        if (canvas != null)
+        {
+            Destroy(canvas);
+        }
+
+        GameObject uiManager = GameObject.Find("UIManager");
+        if (uiManager != null)
+        {
+            Destroy(uiManager);
+        }
         SceneManager.LoadScene("GameScene");
+    }
+
+    public void OnClickButton()
+    {
+        if (clickSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
     }
 }

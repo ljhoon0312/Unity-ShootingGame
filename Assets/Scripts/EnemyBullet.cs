@@ -4,6 +4,7 @@ public class EnemyBullet : MonoBehaviour
 {
     public float speed = 8f;
     public bool isBossBullet = false;
+    public GameObject explosionSoundPrefab;
 
     void Update()
     {
@@ -27,8 +28,19 @@ public class EnemyBullet : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerHealth ph = other.GetComponent<PlayerHealth>();
-            if (ph != null) ph.TakeDamage();
-            Destroy(gameObject);
+            if (ph != null)
+            {
+                ph.TakeDamage();
+
+                // 家府 流立 犁积
+                if (explosionSoundPrefab != null)
+                {
+                    GameObject sfx = Instantiate(explosionSoundPrefab, transform.position, Quaternion.identity);
+                    Destroy(sfx, 2f);
+                }
+
+                Destroy(gameObject); // 醚舅 力芭
+            }
         }
     }
 }

@@ -2,15 +2,22 @@ using UnityEngine;
 
 public class BossBullet : MonoBehaviour
 {
+    public GameObject explosionSoundPrefab;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
+            PlayerHealth player = other.GetComponent<PlayerHealth>();
+            if (player != null && !player.IsInvincible())
+            {
+                player.TakeDamage();
+            }
 
-            GameManager gm = FindFirstObjectByType<GameManager>();
-            if (gm != null)
-                gm.OnPlayerDeath();
+            if (explosionSoundPrefab != null)
+            {
+                GameObject sfx = Instantiate(explosionSoundPrefab, transform.position, Quaternion.identity);
+                Destroy(sfx, 2f);
+            }
 
             Destroy(gameObject);
         }
@@ -18,5 +25,12 @@ public class BossBullet : MonoBehaviour
     void OnBecameInvisible()
     {
         Destroy(gameObject);
+    }
+    void Update()
+    {
+        if (transform.position.y < -10f || transform.position.y > 15f || Mathf.Abs(transform.position.x) > 15f)
+        {
+            Destroy(gameObject);
+        }
     }
 }

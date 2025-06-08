@@ -26,13 +26,20 @@ public class GameManager : MonoBehaviour
     private bool bossWarningShown = false;
 
     [Header("게임 상태")]
-    public TMP_Text gameOverText;
     private bool isGameOver = false;
 
     [Header("게임 브금")]
     public AudioClip gameSceneBGM;
     public AudioClip bossBGM;
     private bool bossMusicPlayed = false;
+
+    [Header("게임 오버 UI")]
+    public GameObject gameOverPanel;
+    public TMP_Text gameOverText;
+
+    [Header("게임 스코어")]
+    public TMP_Text scoreText;
+    public int score = 0;
 
     void Awake()
     {
@@ -41,15 +48,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        gameTime = 120f;  // 여기 반드시 60초로 시작
+
+        gameTime = 90f;  // 여기 반드시 90초로 시작
         BGMManager.instance?.PlayBGM(gameSceneBGM);
         Time.timeScale = 1f;
         SpawnPlayer();
         UpdateLifeUI();
+        UpdateScoreUI();
+        gameOverPanel.SetActive(false);
         gameOverText.gameObject.SetActive(false);
         bossWarningText.gameObject.SetActive(false);
     }
-
     void Update()
     {
         if (isGameOver) return;
@@ -76,10 +85,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public IEnumerator RespawnPlayerCoroutine(float delay, GameObject oldPlayer)
+    {
+        oldPlayer.SetActive(false); // 즉시 화면에서 사라짐
+
+        yield return new WaitForSeconds(delay);
+
+        SpawnPlayer();
+        Destroy(oldPlayer); // 프레임 기다리지 않고 바로 삭제됨
+    }
+
     public void OnPlayerDeath()
     {
         playerLife--;
         UpdateLifeUI();
+        UpdateScoreUI();
 
         if (playerLife <= 0)
         {
@@ -94,8 +114,27 @@ public class GameManager : MonoBehaviour
     public void SpawnPlayer()
     {
         Vector3 pos = playerSpawnPoint.position;
-        pos.z = 0f; // Z값 고정
-        Instantiate(playerPrefab, pos, Quaternion.identity);
+        pos.z = 0f;
+        GameObject newPlayer = Instantiate(playerPrefab, pos, Quaternion.identity);
+
+        // 리스폰 후 무적 적용
+        PlayerHealth ph = newPlayer.GetComponent<PlayerHealth>();
+        if (ph != null)
+        {
+            ph.SetInvincible(true);
+            StartCoroutine(DisableInvincibilityAfterSeconds(ph, 3f)); // 3초 무적
+        }
+    }
+    public void AddScore(int amount)
+    {
+        score += amount;
+        if (score < 0) score = 0;
+        UpdateScoreUI();
+    }
+
+    public void UpdateScoreUI()
+    {
+        scoreText.text = "Score: " + score.ToString();
     }
 
     public void UpdateLifeUI()
@@ -103,17 +142,18 @@ public class GameManager : MonoBehaviour
         lifeText.text = "Life : " + playerLife;
     }
 
-    void GameOver(string message)
+    public void GameOver(string message)
     {
         isGameOver = true;
         Time.timeScale = 0f; // 게임 정지
         gameOverText.text = message;
         gameOverText.gameObject.SetActive(true);
+        gameOverPanel.SetActive(true);
     }
 
     IEnumerator ShowBossWarning()
     {
-        bossWarningText.text = "⚠ BOSS INCOMING ⚠";
+        bossWarningText.text = "BOSS INCOMING";
         bossWarningText.gameObject.SetActive(true);
 
         float duration = 2f;
@@ -136,5 +176,25 @@ public class GameManager : MonoBehaviour
             Instantiate(bossPrefab, spawnPos, Quaternion.identity);
             bossSpawned = true;
         }
+    }
+
+    IEnumerator DisableInvincibilityAfterSeconds(PlayerHealth ph, float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        ph.SetInvincible(false);
+    }
+    public void ReturnToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("IntroScene"); // 메인 씬 이동
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // 에디터 테스트용 종료
+#endif
     }
 }

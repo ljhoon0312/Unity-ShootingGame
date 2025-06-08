@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class LifeItem : MonoBehaviour
 {
+    public AudioClip pickupSound;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            if (pickupSound != null)
+            {
+                AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+            }
             PlayerHealth ph = other.GetComponent<PlayerHealth>();
             if (ph != null)
             {

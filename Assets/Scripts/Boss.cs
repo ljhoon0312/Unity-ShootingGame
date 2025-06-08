@@ -18,12 +18,10 @@ public class Boss : MonoBehaviour
     private bool isPhase2 = false;
     private bool isPhase3 = false;
 
-    public AudioClip explosionSFX;
-    private AudioSource audioSource;
+    public GameObject explosionSoundPrefab;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         InvokeRepeating(nameof(FireSpread), 1f, fireRate);
     }
@@ -32,18 +30,16 @@ public class Boss : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        // �Ʒ��� �������� ����
         pos.y -= moveSpeed * Time.deltaTime;
 
         if (pos.y <= minY)
         {
             pos.y = minY;
-            moveSpeed = 0; // ����
+            moveSpeed = 0;
         }
 
         transform.position = pos;
 
-        // ü�¿� ���� ������ ��ȭ
         if (!isPhase2 && currentHealth <= maxHealth * 0.66f)
         {
             isPhase2 = true;
@@ -84,13 +80,23 @@ public class Boss : MonoBehaviour
         if (currentHealth <= 0) return;
 
         currentHealth -= damage;
-        Debug.Log("Boss HP: " + currentHealth);
 
         if (currentHealth <= 0)
         {
-            if (explosionSFX != null)
-                AudioSource.PlayClipAtPoint(explosionSFX, transform.position);
-            Debug.Log("Boss Defeated");
+            GameManager.Instance.AddScore(100);
+            if (explosionSoundPrefab != null)
+            {
+                GameObject sfx = Instantiate(explosionSoundPrefab, transform.position, Quaternion.identity);
+                Destroy(sfx, 2f);
+            }
+
+            GameManager.Instance.GameOver("Boss Defeated!");
+
+            foreach (var bullet in GameObject.FindGameObjectsWithTag("EnemyBullet"))
+            {
+                Destroy(bullet);
+            }
+
             Destroy(gameObject);
         }
     }

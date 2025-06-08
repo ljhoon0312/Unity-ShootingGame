@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5abaf94d8cc3441499de2d34dbad2cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionSFX: {fileID: 8300000, guid: 3053bc54f7f0a7649835d612773e9adc, type: 3}
+  explosionSoundPrefab: {fileID: 5972001354357518074, guid: 89cb14a6849cb174c9b05abc8fc4f2e9, type: 3}
   bulletPrefab: {fileID: 32349948676570851, guid: 9d243cc1b50523f4c84c5ccb2ba39d2e, type: 3}
   firePoint: {fileID: 6583074376244826530}
   speed: 2

@@ -106,7 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64de0fe32e19ca4ba73b419801269e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownImage: {fileID: 1724136039744175259, guid: 46759d5a29c982a439e66ba9cb7c875f, type: 3}
+  specialCooldown: 10
   moveSpeed: 5
+  specialSkillSound: {fileID: 8300000, guid: 3053bc54f7f0a7649835d612773e9adc, type: 3}
 --- !u!50 &4627570954322704608
 Rigidbody2D:
   serializedVersion: 5
@@ -208,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
-  explosionSFX: {fileID: 8300000, guid: 3053bc54f7f0a7649835d612773e9adc, type: 3}
+  explosionSoundPrefab: {fileID: 3866779854403300629}
 --- !u!82 &171714770136555601
 AudioSource:
   m_ObjectHideFlags: 0

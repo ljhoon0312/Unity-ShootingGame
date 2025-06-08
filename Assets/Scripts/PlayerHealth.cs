@@ -8,62 +8,66 @@ public class PlayerHealth : MonoBehaviour
     private Vector3 spawnPosition = new Vector3(0, -3, 0);
     private SpriteRenderer spriteRenderer;
     private Collider2D col;
-    public AudioClip explosionSFX;
-    private AudioSource audioSource;
+    public GameObject explosionSoundPrefab;
+    private bool isDead = false;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
     }
 
     public void TakeDamage()
     {
-        if (isInvincible || lives <= 0) return;
+        if (isDead || GameManager.Instance.playerLife <= 0) return;
+        isDead = true;
+        GameManager.Instance.playerLife--;
+        GameManager.Instance.AddScore(-20);
+        GameManager.Instance.UpdateLifeUI();
+        GameManager.Instance.UpdateScoreUI();
 
-        lives--;
+        // 즉시 조작 차단 + 보이기 제거
+        GetComponent<PlayerController>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<SpriteRenderer>().enabled = false;
 
-        if (explosionSFX != null)
-            AudioSource.PlayClipAtPoint(explosionSFX, transform.position);
-
-        GameManager.Instance.OnPlayerDeath();
-
-        if (lives > 0)
+        // 폭발 사운드는 따로 Instantiate → 플레이어랑 별도 오브젝트
+        if (explosionSoundPrefab != null)
         {
-            StartCoroutine(Respawn());
+            GameObject sfx = Instantiate(explosionSoundPrefab, transform.position, Quaternion.identity);
+            DontDestroyOnLoad(sfx); // 혹시 Destroy될 위험 방지
+            Destroy(sfx, 2f); // 2초 뒤에 자동 제거
+        }
+
+        if (GameManager.Instance.playerLife == 0)
+        {
+            GameManager.Instance.GameOver("You Died!");
+            Destroy(gameObject); // 프레임 끝에 제거됨
         }
         else
         {
-            Destroy(gameObject);
+            StartCoroutine(Respawn());
         }
-    }
-
-    public bool IsInvincible()
-    {
-        return isInvincible;
     }
 
     IEnumerator Respawn()
     {
-        isInvincible = true;
-
-        // 숨김 처리
-        spriteRenderer.enabled = false;
-        col.enabled = false;
-
         yield return new WaitForSeconds(3f);
-
-        Destroy(gameObject); // 먼저 자신을 제거
-
-        yield return null;   // 프레임 하나 쉬고 나서
-
-        GameManager.Instance.SpawnPlayer(); // 그 후 새 전투기 생성
+        GameManager.Instance.SpawnPlayer();
+        Destroy(gameObject);
     }
 
     public void AddLife()
     {
         GameManager.Instance.playerLife++;
         GameManager.Instance.UpdateLifeUI();
+    }
+    public bool IsInvincible()
+    {
+        return isInvincible;
+    }
+    public void SetInvincible(bool value)
+    {
+        isInvincible = value;
     }
 }

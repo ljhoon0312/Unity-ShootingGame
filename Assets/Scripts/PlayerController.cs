@@ -1,25 +1,58 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public Image cooldownImage;
+    public float specialCooldown = 10f;
+    private float currentCooldown = 0f;
+    private bool canUseSpecial = true;
+
     public float moveSpeed = 5f;
     private PlayerAttack attack;
 
+    public AudioClip specialSkillSound;
+    private AudioSource audioSource;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         attack = GetComponent<PlayerAttack>();
         if (attack == null)
             Debug.LogError("PlayerAttack 컴포넌트를 찾을 수 없습니다.");
+        if (cooldownImage == null)
+        {
+            // Canvas 안에 있는 "CooldownImage"라는 이름의 UI Image를 찾아 자동 연결
+            cooldownImage = GameObject.Find("CooldownImage")?.GetComponent<Image>();
+        }
+        if (cooldownImage != null)
+        {
+            cooldownImage.enabled = true;
+            cooldownImage.gameObject.SetActive(true);
+            cooldownImage.fillAmount = 1f;
+        }
     }
 
     void Update()
     {
         Move();
+        if (!canUseSpecial)
+        {
+            currentCooldown -= Time.deltaTime;
+            //float ratio = currentCooldown / specialCooldown;
+            //cooldownImage.fillAmount = ratio;
+            cooldownImage.fillAmount = 1f - (currentCooldown / specialCooldown);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+            if (currentCooldown <= 0f)
+            {
+                canUseSpecial = true;
+                cooldownImage.fillAmount = 1f;
+            }
+        }
+            if (Input.GetKeyDown(KeyCode.Space))
             attack?.Fire();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canUseSpecial)
             UseSpecialSkill();
     }
 
@@ -49,6 +82,16 @@ public class PlayerController : MonoBehaviour
 
     void UseSpecialSkill()
     {
+        if (!canUseSpecial) return;
+        // 사운드 재생
+        if (specialSkillSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(specialSkillSound);
+        }
+        Debug.Log("필살기 발동!");
+        canUseSpecial = false;
+        currentCooldown = specialCooldown;
+        cooldownImage.fillAmount = 1f;
         foreach (GameObject bullet in GameObject.FindGameObjectsWithTag("EnemyBullet"))
         {
             Destroy(bullet);
