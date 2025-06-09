@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public Transform firePoint;
     public float speed = 2f;
 
+    private bool isDead = false;
     void Start()
     {
         InvokeRepeating("Fire", 1f, 2f);
@@ -31,10 +32,12 @@ public class Enemy : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("[Enemy] 충돌 감지됨: " + other.name + ", 태그: " + other.tag);
+        if (isDead) return;
 
         // 플레이어 총알에 맞은 경우
         if (other.CompareTag("PlayerBullet"))
         {
+            isDead = true;
             if (explosionSoundPrefab != null)
             {
                 Debug.Log("Enemy 총알 맞고 소리 재생됨 by " + gameObject.name);
